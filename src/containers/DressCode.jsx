@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/DressCode.css";
-import traje from "../assets/img/traje.png";
-import vestido from "../assets/img/vestido.png";
+import traje from "../assets/img/Traje.png";
+import vestido from "../assets/img/Vestido.png";
 
 export default function DressCode() {
   return (

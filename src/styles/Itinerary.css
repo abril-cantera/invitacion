@@ -1,0 +1,62 @@
+.itinerary-container {
+  background-color: white;
+  padding: 2rem 2rem 4rem 2rem;
+  text-align: center;
+  color: rgb(47, 80, 38);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-primary-itinerary {
+  color: black;
+  font-size: 2.6rem;
+  padding-bottom: 2rem;
+}
+
+.itinerary-list {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* Espacio más amplio entre los eventos */
+  margin-top: 2rem;
+}
+
+.itinerary-item {
+  border-left: 3px solid rgb(47, 80, 38);
+  /* Línea más gruesa para más visibilidad */
+  padding-left: 2rem;
+  position: relative;
+}
+
+.itinerary-item::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 15px;
+  /* Círculo más grande */
+  height: 15px;
+  background-color: rgb(47, 80, 38);
+  border-radius: 50%;
+}
+
+.time {
+  font-size: 2rem;
+  /* Aumento de tamaño */
+  letter-spacing: 2px;
+  color: rgb(47, 80, 38);
+  font-weight: bold;
+  /* Hacemos el tiempo más destacado */
+}
+
+.title {
+  font-size: 2.3rem;
+  /* Aumento de tamaño */
+  margin: 1rem 0;
+  color: rgb(47, 80, 38);
+  font-weight: 500;
+  /* Hacemos el título más visible */
+}

@@ -1,0 +1,45 @@
+.information-container {
+  background-color: rgb(47, 80, 38);
+  /* fondo verde oscuro */
+  color: white;
+  padding: 15rem 8rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.information-subcontainer-title {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.information-subcontainer-title h2 {
+  padding-bottom: 1rem;
+}
+
+.dresscode-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dresscode-subinfo {
+  width: 50%;
+  height: 100%;
+}
+
+.dresscode-subinfo  h2{
+  padding: 1rem;
+}
+
+.dresscode-img-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dresscode-subinfo-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

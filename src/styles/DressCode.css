@@ -1,0 +1,13 @@
+.dresscode-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.dresscode-text {
+  font-size: 2rem;
+  max-width: 850px;
+  margin: 0 auto;
+  line-height: 1.7;
+}

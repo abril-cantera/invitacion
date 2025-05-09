@@ -1,0 +1,35 @@
+.custom-dropdown {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+  font-family: 'Bitter', serif;
+  color: #f9f9f9;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 1.6rem;
+  font-family: "Times New Roman", Times, serif;
+  /* font-style: italic; */
+  color: #fff;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  transition: color 0.3s ease;
+}
+
+.dropdown-body {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.dropdown-body.open {
+  max-height: 500px; /* o más si tu contenido es más grande */
+  opacity: 1;
+}

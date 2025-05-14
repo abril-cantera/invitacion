@@ -21,22 +21,6 @@ export default function Places() {
         </div>
       </div>
       <div className="container-two-place">
-        {/* <div className="subcontainer-two-place"> */}
-          {/* <h3>CEREMONIA CIVIL Y FIESTA</h3> */}
-          {/* <div className="container-data">
-            <div>
-            <img className="container-img" src={fiesta} alt="" />
-            </div>
-            <div>
-              <h4>20:00 hs</h4>
-              <h4>Iglesia Basílica San Vicente Ferrer</h4>
-              <div className="link-place">
-                <a className="btn-a" href="https://maps.app.goo.gl/2CyAqUo2QtaAviV79">Como Llegar</a>
-              </div>
-            </div>
-          </div> */}
-        {/* </div> */}
-        <div className="separator"></div>
         <div className="subcontainer-two-place">
           <h3>CEREMONIA CIVIL Y FIESTA</h3>
           <div className="container-data">
@@ -44,8 +28,8 @@ export default function Places() {
             <img className="container-img" src={iglesia} alt="" />
             </div>
             <div>
-              <h4>22:00 hs</h4>
               <h4>Salon de Eventos Hualilan</h4>
+              <h4>22:00 hs</h4>
               <div className="link-place">
                 <a className="btn-a" href="https://maps.app.goo.gl/4sGbo9hjKyK97EGz5">Como Llegar</a>
               </div>

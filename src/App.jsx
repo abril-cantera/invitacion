@@ -21,12 +21,12 @@ function App() {
                 onFinish={() => alert("¡Llego el Dia!")}
               />
             </div>
-            {/* <div>
+            <div>
               <div>
                 <Places />
               </div>
             </div>
-            <div>
+            {/* <div>
               <div>
                 <Itinerary />
               </div>

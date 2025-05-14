@@ -1,25 +1,39 @@
+@import url('./variables.css');
+
 .container-calendar-primary {
-    padding: 3rem 1rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  padding: 3rem 1rem;
+  width: 100%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.link-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link-calendar a {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .boton-calendario {
-    background-color: rgb(47, 80, 38);
-    color: white;
-    padding: 0.5rem 2rem;
-    border-radius: 0.75rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    display: inline-block;
-    transition: background-color 0.2s ease;
+  background-color: var(--color-primario);
+  color: white;
+  font-size: 2.2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.calendar-icon{
+  font-size: 30px;
+  color: var(--color-primario);
 }
 
 .boton-calendario:hover {
-    background-color: rgba(47, 80, 38, 0.801);
+  background-color: var(--color-primario);
 }

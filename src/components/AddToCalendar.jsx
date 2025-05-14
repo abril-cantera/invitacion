@@ -44,7 +44,7 @@ END:VCALENDAR`;
   return (
     <div className="container-calendar-primary">
       <div className="link-calendar">
-        <FaCalendarCheck />
+        <FaCalendarCheck className="calendar-icon"/>
         <a href={icsUrl} download={`${title}.ics`} className="boton-calendario">
           Agendar Fecha
         </a>

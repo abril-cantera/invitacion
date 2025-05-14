@@ -52,7 +52,7 @@
   display: block;
 }
 
-.flor {
+.flor-up {
   position: absolute;
   top: -2%;
   left: -10%;
@@ -61,11 +61,30 @@
   transition: transform 2s ease, opacity 2.5s ease;
 }
 
-.flor-activa {
+.flor-up-activa {
   transform: rotate(280deg) scale(1);
   opacity: 1;
 }
 
-.flor img {
+.flor-up img {
+  width: 200px;
+}
+
+
+.flor-down {
+  position: absolute;
+  bottom: -1%;
+  right: -2%;
+  transform: rotate(269deg) scale(0.8);
+  opacity: 0.1;
+  transition: transform 2s ease, opacity 2.5s ease;
+}
+
+.flor-down-activa {
+  transform: rotate(269deg) scale(1);
+  opacity: 1;
+}
+
+.flor-down img {
   width: 200px;
 }

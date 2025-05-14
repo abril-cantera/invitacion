@@ -12,13 +12,16 @@ export default function Home() {
 
   return (
     <section className="container-one">
-      <div className={`flor ${animarFlor ? "flor-activa" : ""}`}>
+      <div className={`flor-up ${animarFlor ? "flor-up-activa" : ""}`}>
         <img src={flor} alt="flor" />
       </div>
       <div className="container-two">
         <h2 className="title-primary">Nos casamos</h2>
         <h1 className="title-secondary">Abril & Willy</h1>
         <h2 className="title-primary">16 · 01 · 2027</h2>
+      </div>
+      <div className={`flor-down ${animarFlor ? "flor-down-activa" : ""}`}>
+        <img src={flor} alt="flor" />
       </div>
       <Curve curve={0} />
     </section>

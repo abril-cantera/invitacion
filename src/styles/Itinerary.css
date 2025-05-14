@@ -1,8 +1,10 @@
+@import url('./variables.css');
+
 .itinerary-container {
   background-color: white;
   padding: 2rem 2rem 4rem 2rem;
   text-align: center;
-  color: rgb(47, 80, 38);
+  color: var(--color-primario);
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
@@ -25,7 +27,7 @@
 }
 
 .itinerary-item {
-  border-left: 3px solid rgb(47, 80, 38);
+  border-left: 3px solid  var(--color-primario);
   /* Línea más gruesa para más visibilidad */
   padding-left: 2rem;
   position: relative;
@@ -39,7 +41,7 @@
   width: 15px;
   /* Círculo más grande */
   height: 15px;
-  background-color: rgb(47, 80, 38);
+  background-color:  var(--color-primario);
   border-radius: 50%;
 }
 
@@ -47,7 +49,7 @@
   font-size: 2rem;
   /* Aumento de tamaño */
   letter-spacing: 2px;
-  color: rgb(47, 80, 38);
+  color:  var(--color-primario);
   font-weight: bold;
   /* Hacemos el tiempo más destacado */
 }

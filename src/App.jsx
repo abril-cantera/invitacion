@@ -26,12 +26,12 @@ function App() {
                 <Places />
               </div>
             </div>
-            {/* <div>
+            <div>
               <div>
                 <Itinerary />
               </div>
             </div>
-            <div>
+            {/* <div>
               <ImportantInformation />
             </div> */}
           </div>

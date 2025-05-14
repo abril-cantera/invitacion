@@ -1,10 +1,14 @@
 import React from "react";
 import "../styles/Home.css";
+import flor from "../assets/img/flor.png"
 import Curve from "../components/Curve";
 
 export default function Home() {
   return (
     <section className="container-one">
+      <div className="flor">
+        <img src={flor} alt="" />
+      </div>
       <div className="container-two">
         <h2 className="title-primary">Nos casamos</h2>
         <h1 className="title-secondary">Abril & Willy</h1>

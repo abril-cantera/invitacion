@@ -51,3 +51,14 @@
   height: auto;
   display: block;
 }
+
+.flor{
+ position: absolute;
+ top: 0%;
+ left: 0%;
+ transform: rotate(253deg)
+}
+
+.flor img{
+  width: 170px;
+}

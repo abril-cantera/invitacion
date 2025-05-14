@@ -21,7 +21,7 @@ function App() {
                 onFinish={() => alert("¡Llego el Dia!")}
               />
             </div>
-            <div>
+            {/* <div>
               <div>
                 <Places />
               </div>
@@ -33,9 +33,9 @@ function App() {
             </div>
             <div>
               <ImportantInformation />
-            </div>
+            </div> */}
           </div>
-          <div className="container-secondary">
+          {/* <div className="container-secondary">
             <h4>Confirmacion de asistencia</h4>
           </div>
           <div>
@@ -45,7 +45,7 @@ function App() {
               noche
             </p>
             <button>Sigeri tu tema aca</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

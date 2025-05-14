@@ -3,8 +3,6 @@
 .container-calendar-primary {
   padding: 3rem 1rem;
   width: 100%;
-  /* display: flex;
-  justify-content: center; */
 }
 
 .link-calendar {
@@ -20,7 +18,7 @@
 .boton-calendario {
   background-color: var(--color-primario);
   color: white;
-  font-size: 2.2rem;
+  font-size: 2rem;
   padding: 0.5rem 2rem;
   border-radius: 0.75rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -30,7 +28,7 @@
 }
 
 .calendar-icon{
-  font-size: 30px;
+  font-size: 28px;
   color: var(--color-primario);
 }
 

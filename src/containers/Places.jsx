@@ -1,8 +1,6 @@
 import React from "react";
 import iglesia from "../assets/img/2.png";
-// import iglesia from "../assets/img/Iglesia-removebg-preview.png";
-import fiesta from "../assets/img/1.png";
-// import fiesta from "../assets/img/Fiesta-removebg-preview.png";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import "../styles/Places.css";
 import Curve from "../components/Curve";
 
@@ -31,6 +29,7 @@ export default function Places() {
               <h4>Salon de Eventos Hualilan</h4>
               <h4>22:00 hs</h4>
               <div className="link-place">
+                <FaMapMarkerAlt className="icon-map"/>
                 <a className="btn-a" href="https://maps.app.goo.gl/4sGbo9hjKyK97EGz5">Como Llegar</a>
               </div>
             </div>

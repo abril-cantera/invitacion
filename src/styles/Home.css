@@ -55,17 +55,17 @@
 .flor {
   position: absolute;
   top: 0%;
-  left: -2%;
-  transform: rotate(253deg) scale(0.8); /* arranca más chica */
-  opacity: 0;
-  transition: transform 1s ease, opacity 1s ease;
+  left: 0%;
+  transform: rotate(253deg) scale(0.8);
+  opacity: 0.1;
+  transition: transform 1s ease, opacity 1.2s ease;
 }
 
 .flor-activa {
-  transform: rotate(263deg) scale(1); /* termina en tamaño normal */
+  transform: rotate(253deg) scale(1);
   opacity: 1;
 }
 
 .flor img {
-  width: 180px;
+  width: 170px;
 }

@@ -54,7 +54,7 @@
 
 .flor {
   position: absolute;
-  top: 2%;
+  top: 0%;
   left: -2%;
   transform: rotate(253deg) scale(0.8); /* arranca más chica */
   opacity: 0;

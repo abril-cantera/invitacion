@@ -4,4 +4,8 @@
   --fuente-principal: "Kaisei Opti", serif;
   --fuente-secundaria: 'Times New Roman', Times, serif;
   --fuente-terciaria: 'Dosis', sans-serif;
+
+  --title-primary: 2rem;
+  --title-secondary: 5rem;
+  --subtitle: 1.8rem;
 }

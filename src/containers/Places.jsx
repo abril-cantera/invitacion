@@ -21,9 +21,9 @@ export default function Places() {
         </div>
       </div>
       <div className="container-two-place">
-        <div className="subcontainer-two-place">
-          <h3>Ceremonia</h3>
-          <div className="container-data">
+        {/* <div className="subcontainer-two-place"> */}
+          {/* <h3>CEREMONIA CIVIL Y FIESTA</h3> */}
+          {/* <div className="container-data">
             <div>
             <img className="container-img" src={fiesta} alt="" />
             </div>
@@ -34,11 +34,11 @@ export default function Places() {
                 <a className="btn-a" href="https://maps.app.goo.gl/2CyAqUo2QtaAviV79">Como Llegar</a>
               </div>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         <div className="separator"></div>
         <div className="subcontainer-two-place">
-          <h3>Fiesta</h3>
+          <h3>CEREMONIA CIVIL Y FIESTA</h3>
           <div className="container-data">
             <div>
             <img className="container-img" src={iglesia} alt="" />

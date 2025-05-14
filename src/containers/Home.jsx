@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/Home.css";
-import flor from "../assets/img/flor.png"
+import flor from "../assets/img/flor.png";
 import Curve from "../components/Curve";
 
 export default function Home() {
+  const [animarFlor, setAnimarFlor] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setAnimarFlor(true), 100); // pequeño delay para que la transición se note
+  }, []);
+
   return (
     <section className="container-one">
-      <div className="flor">
-        <img src={flor} alt="" />
+      <div className={`flor ${animarFlor ? "flor-activa" : ""}`}>
+        <img src={flor} alt="flor" />
       </div>
       <div className="container-two">
         <h2 className="title-primary">Nos casamos</h2>

@@ -1,0 +1,56 @@
+@import url('./variables.css');
+@import url('./variables.css');
+
+.container-one-date {
+  background-color: var(--color-secundario);
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  /* ⬅️ importante para posicionar .curve */
+  overflow: hidden;
+  /* previene scroll no deseado si se sobrepone */
+  color: var(--color-secundario);
+}
+
+.container-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.container-date {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.subcontainer-date {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subcontainer-date h2 {
+  font-size: 8rem;
+  padding: 0 1rem;
+  color: var(--color-primario);
+}
+
+.subcontainer-date h5 {
+  color: var(--color-primario);
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  border-top: 1px solid var(--color-primario);
+  border-bottom: 1px solid var(--color-primario);
+}

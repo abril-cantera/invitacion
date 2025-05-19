@@ -1,7 +1,7 @@
 @import url('./variables.css');
 
 .container-one-places {
-  background-color: var(--color-secundario);
+  background-color: var(--color-primario);
   width: 100%;
   height: 60rem;
   display: flex;
@@ -16,6 +16,55 @@
   color: var(--color-secundario);
 }
 
+.container-img-1 {
+  position: absolute;
+  left: 21px;
+  width: 100px;
+  transform: rotate(264deg) scale(1);
+}
+
+.container-img-2 {
+  left: 105px;
+  top: 226px;
+  position: absolute;
+  width: 100px;
+  transform: rotate(86deg) scale(1);
+}
+
+.container-two-place {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-individual {
+  display: flex;
+  justify-content: center;
+  height: 33%;
+  /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.container-individual div {
+  width: 33%;
+}
+
+.container-individual div h4 {
+  font-size: 8rem;
+}
+
+.line {
+  height: 100%;
+  /* font-family: "Dosis", sans-serif; */
+  font-optical-sizing: auto;
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  /* font-size: 2.5rem; */
+  /* border-left: 5px solid rgb(255, 255, 255); */
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+}
+
+/* 
 h2,
 h3,
 h4,
@@ -32,15 +81,8 @@ h5 {
   font-family: 'Times New Roman', Times, serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.container-two-place {
-  width: 100%;
-  margin: 2rem 0 0 0;
-  display: flex;
-  flex-direction: column;
-}
-
+  }
+  
 .subcontainer-two-place {
   margin: 10px;
   width: 100%;
@@ -52,10 +94,6 @@ h5 {
   align-items: center;
   flex-direction: column;
   margin: 1rem;
-}
-
-.container-img {
-  width: 100px;
 }
 
 .container-date {
@@ -74,18 +112,7 @@ h5 {
 .subcontainer-date h2 {
   font-size: 8rem;
   padding: 0 1rem;
-  color: var(--color-primario);
-}
 
-.subcontainer-date h5 {
-  color: var(--color-primario);
-  font-family: "Dosis", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2.5rem;
-  border-top: 1px solid var(--color-primario);
-  border-bottom: 1px solid var(--color-primario);
 }
 
 .link-place {
@@ -103,7 +130,6 @@ h5 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   display: inline-block;
-  /* transition: background-color 0.3s ease, transform 0.2s; */
 }
 
 .icon-map {
@@ -114,4 +140,4 @@ h5 {
 .btn-a:hover {
   background-color: #c1dbba;
   transform: scale(1.05);
-}
+} */

@@ -18,7 +18,7 @@ export default function Home() {
       <div className="container-two">
         <h2 className="title-primary">Nos casamos</h2>
         <h1 className="title-secondary">Abril & Willy</h1>
-        <h2 className="title-primary">16 · 01 · 2027</h2>
+        <h2 className="title-primary">28 · 08 · 2027</h2>
       </div>
       <div className={`flor-down ${animarFlor ? "flor-down-activa" : ""}`}>
         <img src={flor} alt="flor" />

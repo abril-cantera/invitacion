@@ -1,3 +1,5 @@
+@import url('./variables.css');
+
 .curve {
     position: absolute;
     bottom: 0;
@@ -21,6 +23,7 @@
 }
 
 .curve svg {
+    /* background-color:  var(--color-primario); */
     width: 100%;
     height: auto;
     display: block;

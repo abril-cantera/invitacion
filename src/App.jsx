@@ -16,12 +16,6 @@ function App() {
           </div>
           <div className="container-secondary">
             <div>
-              <Countdown
-                timezone={-3}
-                onFinish={() => alert("¡Llego el Dia!")}
-              />
-            </div>
-            <div>
               <div>
                 <Places />
               </div>
@@ -46,6 +40,9 @@ function App() {
             </p>
             <button>Sigeri tu tema aca</button>
           </div> */}
+          <div>
+            <Countdown timezone={-3} onFinish={() => alert("¡Llego el Dia!")} />
+          </div>
         </div>
       </div>
     </>

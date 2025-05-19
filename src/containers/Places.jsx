@@ -7,7 +7,7 @@ import Curve from "../components/Curve";
 export default function Places() {
   return (
     <div className="container-one-places">
-      <Curve curve={1} />
+      {/* <Curve curve={1} /> */}
       {/* <div className="container-title">
         <h2>Te esperamos para celebrar nuestra boda</h2>
       </div> */}

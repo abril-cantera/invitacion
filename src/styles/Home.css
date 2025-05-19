@@ -2,7 +2,8 @@
 
 .container-one {
   background-color: var(--color-primario);
-  height: 67rem;
+  /* background-color: var(--color-secundario); */
+  height: 68rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +23,8 @@
 
 .title-primary {
   color: white;
-  font-size: var(--title-primary);
+  /* color: black; */
+  font-size: var(--subtitle);
   letter-spacing: 5px;
   font-family: var(--fuente-principal);
   font-weight: 400;
@@ -31,6 +33,7 @@
 
 .title-secondary {
   color: white;
+  /* color: black; */
   font-size: var(--title-secondary);
   font-family: "Birthstone", cursive;
   font-weight: 400;

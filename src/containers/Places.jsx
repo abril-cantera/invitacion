@@ -8,20 +8,72 @@ import DateContainer from "../components/DateContainer";
 import aw from "../assets/img/aw.png";
 import flor from "../assets/img/flor3.png";
 
-
 export default function Places() {
   return (
     <div>
       <DateContainer />
-      <div className="container-one-places">
+      <div className="container-decorartion-places">
         <Curve curve={1} />
-        <div className="subcontainer-place">
+        <div className="subcontainer-decoration">
           <img className="flor" src={flor} alt="" />
           <img src={aw} alt="" />
           <img className="down-flor" src={flor} alt="" />
+        </div>
+        <div className="subcontainer-places">
+          <div>
+            <h4>Salon de Eventos Hualilan</h4>
+            <h4>22:00 hs</h4>
+            <div className="link-place">
+              <FaMapMarkerAlt className="icon-map" />
+              <a
+                className="btn-a"
+                href="https://maps.app.goo.gl/4sGbo9hjKyK97EGz5"
+              >
+                Como Llegar
+              </a>
+            </div>
+          </div>
         </div>
         <Curve curve={0} />
       </div>
     </div>
   );
+}
+{
+  /* <div className="container-individual">
+              <div></div>
+              <div className="line"></div>
+              <div>
+                <h2>data</h2>
+              </div>
+            </div> */
+}
+{
+  /* <div className="subcontainer-two-place">
+              <h3>CEREMONIA CIVIL Y FIESTA</h3>
+              <div className="container-data">
+                <div>
+                  <img className="container-img" src={iglesia} alt="" />
+                </div>
+                
+              </div>
+            </div> */
+}
+{
+  /* <div>
+    <h4>A</h4>
+  </div>
+  <div className="line"></div>
+  <div>
+    <img className="container-img-2" src={florLinea2} alt="" />
+  </div>
+</div>
+<div className="container-individual">
+  <div>
+    <img className="container-img-1" src={florLinea2} alt="" />
+  </div>
+  <div className="line">
+    {" "}
+    <h4>W</h4>
+  </div> */
 }

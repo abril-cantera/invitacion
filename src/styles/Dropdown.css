@@ -24,7 +24,7 @@
 
 .dropdown-body {
   max-height: 0;
-  /* overflow: hidden; */
+  overflow: hidden;
   opacity: 0;
   transition: max-height 0.8s ease-in-out, opacity 0.8s ease-in-out;
 }

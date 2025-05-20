@@ -12,7 +12,7 @@
   flex-direction: column;
   position: relative;
   /* ⬅️ importante para posicionar .curve */
-  /* overflow: hidden; */
+  overflow: hidden;
   /* previene scroll no deseado si se sobrepone */
   color: var(--color-secundario);
 }

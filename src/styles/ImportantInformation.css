@@ -7,7 +7,7 @@
   font-family: "Times New Roman", Times, serif;
   position: relative;
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .information-subcontainer-title {

@@ -5,7 +5,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import "../styles/Places.css";
 import Curve from "../components/Curve";
 import DateContainer from "../components/DateContainer";
-import aw from "../assets/img/a-w.png";
+import aw from "../assets/img/aw.png";
 import flor from "../assets/img/flor3.png";
 
 

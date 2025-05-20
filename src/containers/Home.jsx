@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Home.css";
-import flor from "../assets/img/flor.png";
+// import flor from "../assets/img/flor2.png";
+// import flor from "../assets/img/flor.png";
+// import flor from "../assets/img/flor3.png";
+import flor from "../assets/img/flor-1.png";
 import Curve from "../components/Curve";
 
 export default function Home() {

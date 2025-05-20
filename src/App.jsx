@@ -1,4 +1,3 @@
-// import { HashRouter, Route, Routes } from 'react-router-dom'
 import "./App.css";
 import Home from "./containers/Home";
 import Countdown from "./containers/Countdown";
@@ -7,6 +6,7 @@ import Itinerary from "./containers/Itinerary";
 import ImportantInformation from "./containers/ImportantInformation";
 
 function App() {
+  
   return (
     <>
       <div className="container-principal">

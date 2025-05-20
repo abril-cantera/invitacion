@@ -11,58 +11,78 @@
   flex-direction: column;
   position: relative;
   /* ⬅️ importante para posicionar .curve */
-  overflow: hidden;
+  /* overflow: hidden; */
   /* previene scroll no deseado si se sobrepone */
   color: var(--color-secundario);
 }
 
-.container-img-1 {
-  position: absolute;
-  left: 21px;
-  width: 100px;
-  transform: rotate(264deg) scale(1);
+.subcontainer-place {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.container-img-2 {
+.flor {
+  width: 146px;
+  position: absolute;
+  top: 40%;
+  left: -2%;
+  transform: rotate(86deg) scaleX(-1);
+  filter: brightness(0) invert(1);
+
+}
+
+.down-flor {
+  width: 146px;
+  position: absolute;
+  top: 23%;
+  left: 27%;
+  transform: rotate(270deg) scaleX(-1);
+  filter: brightness(0) invert(1);
+
+}
+
+/* .container-img-1 { */
+/* position: absolute; */
+/* left: 21px; */
+/* width: 100px; */
+/* transform: rotate(264deg) scale(1); */
+/* } */
+
+/* .container-img-2 {
   left: 105px;
   top: 226px;
   position: absolute;
   width: 100px;
   transform: rotate(86deg) scale(1);
-}
-
-.container-two-place {
-  width: 100%;
-  margin: 2rem 0 0 0;
-  display: flex;
-  flex-direction: column;
-}
+} */
 
 .container-individual {
-  display: flex;
-  justify-content: center;
-  height: 33%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* height: 33%; */
   /* border: 1px solid rgb(255, 255, 255); */
 }
 
-.container-individual div {
+/* .container-individual div {
   width: 33%;
-}
+} */
 
-.container-individual div h4 {
+/* .container-individual h4 {
+  padding: 1rem;
   font-size: 8rem;
-}
+} */
 
-.line {
-  height: 100%;
-  /* font-family: "Dosis", sans-serif; */
-  font-optical-sizing: auto;
-  /* font-weight: 400; */
-  /* font-style: normal; */
-  /* font-size: 2.5rem; */
-  /* border-left: 5px solid rgb(255, 255, 255); */
-  /* border-bottom: 1px solid rgb(255, 255, 255); */
-}
+/* .line { */
+/* height: 100%; */
+/* font-family: "Dosis", sans-serif; */
+/* font-optical-sizing: auto; */
+/* font-weight: 400; */
+/* font-style: normal; */
+/* font-size: 2.5rem; */
+/* border-left: 5px solid rgb(255, 255, 255); */
+/* border-bottom: 1px solid rgb(255, 255, 255); */
+/* } */
 
 /* 
 h2,

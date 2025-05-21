@@ -53,7 +53,7 @@
 }
 
 .flor-top {
-  top: 29%;
+  top: 50%;
   left: -16%;
   /* ajusta según posición del "|" */
   transform: rotate(86deg) scaleX(-1);
@@ -69,15 +69,16 @@
 } */
 
 .flor-bottom {
-  bottom: 72%;
+  bottom: 55%;
   left: 31%;
   transform: rotate(270deg) scaleX(-1);
 }
 
 .subcontainer-places {
-  position: absolute;
-  bottom: 2%;
-  right: -65%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
 }
 
 .subcontainer-places h4 {

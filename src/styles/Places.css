@@ -1,7 +1,7 @@
 @import url('./variables.css');
 
-.container-decorartion-places{
-    background-color: var(--color-primario);
+.container-decorartion-places {
+  background-color: var(--color-primario);
   width: 100%;
   height: 60rem;
   display: flex;
@@ -16,13 +16,26 @@
   color: var(--color-secundario);
 }
 
+.aw-wrapper {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.aw-img {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+}
+
 .subcontainer-decoration {
   width: 100%;
   display: flex;
   justify-content: flex-start;
+  padding-right: 31%;
 }
 
-.flor {
+/* .flor {
   width: 146px;
   position: absolute;
   top: 40%;
@@ -30,21 +43,41 @@
   transform: rotate(86deg) scaleX(-1);
   filter: brightness(0) invert(1);
 
+} */
+
+.flor {
+  position: absolute;
+  width: 146px;
+  /* ajusta según necesidad */
+  filter: brightness(0) invert(1);
 }
 
-.down-flor {
+.flor-top {
+  top: 29%;
+  left: -16%;
+  /* ajusta según posición del "|" */
+  transform: rotate(86deg) scaleX(-1);
+}
+
+/* .down-flor {
   width: 146px;
   position: absolute;
   top: 21%;
   left: 20%;
   transform: rotate(270deg) scaleX(-1);
   filter: brightness(0) invert(1);
+} */
+
+.flor-bottom {
+  bottom: 72%;
+  left: 31%;
+  transform: rotate(270deg) scaleX(-1);
 }
 
 .subcontainer-places {
   position: absolute;
-  bottom: 21%;
-  right: 5%;
+  bottom: 2%;
+  right: -57%;
 }
 
 .subcontainer-places h4 {

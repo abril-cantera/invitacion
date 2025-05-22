@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/Curve.css";
 
-export default function Curve({ curve }) {
+export default function Curve({ curve, curvex2 }) {
   const curvePosition = curve === 1 ? "curve-top" : "curve";
+  const curveX2 = curvex2 === 1 ? "curve-x2" : "";
 
   return (
-    <div className={curvePosition}>
+    <div className={`${curvePosition} ${curveX2}`}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"

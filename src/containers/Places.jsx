@@ -14,6 +14,7 @@ export default function Places() {
       <DateContainer />
       <div className="container-decorartion-places">
         <Curve curve={1} />
+        {/* <Curve curve={1} curvex2={1} /> */}
         <div className="subcontainer-decoration">
           <div className="aw-wrapper">
             <img className="flor flor-top" src={flor} alt="Decoración floral" />

@@ -26,7 +26,7 @@ export default function Home() {
       <div className={`flor-down ${animarFlor ? "flor-down-activa" : ""}`}>
         <img src={flor} alt="flor" />
       </div>
-      <Curve curve={0} />
+      {/* <Curve curve={0} /> */}
     </section>
   );
 }

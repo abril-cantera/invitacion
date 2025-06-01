@@ -6,7 +6,7 @@ import Curve from "../components/Curve";
 export default function ImportantInformation() {
   return (
     <div className="information-container">
-      <Curve curve={1} />
+      {/* <Curve curve={1} /> */}
       <div className="information-subcontainer-title">
         <h2>DUDAS?</h2>
         <h4>Te contamos todos los detalles</h4>

@@ -1,3 +1,4 @@
+import Countdown from "../containers/Countdown";
 import "../styles/DateContainer.css";
 
 export default function DateContainer() {
@@ -13,6 +14,7 @@ export default function DateContainer() {
           <h5>AGOSTO</h5>
         </div>
       </div>
+      <Countdown timezone={-3} onFinish={() => alert("¡Llego el Dia!")} />
     </div>
-  )
+  );
 }

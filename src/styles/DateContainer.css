@@ -4,7 +4,7 @@
 .container-one-date {
   background-color: var(--color-secundario);
   width: 100%;
-  height: 15rem;
+  height: 45rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@
   overflow: hidden;
   /* previene scroll no deseado si se sobrepone */
   color: var(--color-secundario);
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .container-data {

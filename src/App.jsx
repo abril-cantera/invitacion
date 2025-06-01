@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="desktop-warning">
-        <h2>⚠️ Por favor, mirá esta página desde un teléfono</h2>
+        <h2>Visualiza esta invitacion a travez de tu telefono</h2>
       </div>
       <div className="container-principal">
         <div className="container-primary">
@@ -26,10 +26,10 @@ function App() {
               <div>
                 <Itinerary />
               </div>
-            </div>
-            {/* <div>
+            <div>
               <ImportantInformation />
-            </div> */}
+            </div>
+            </div>
           </div>
           {/* <div className="container-secondary">
             <h4>Confirmacion de asistencia</h4>
@@ -42,9 +42,6 @@ function App() {
             </p>
             <button>Sigeri tu tema aca</button>
           </div> */}
-          <div>
-            <Countdown timezone={-3} onFinish={() => alert("¡Llego el Dia!")} />
-          </div>
         </div>
       </div>
     </>

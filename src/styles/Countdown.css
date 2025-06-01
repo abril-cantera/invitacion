@@ -94,6 +94,7 @@ h2, h3, h4, h5 {
   padding-bottom: 2rem;
   font-size: clamp(2rem, 4vw, 2.6rem);
   letter-spacing: 2px;
+  color: var(--color-primario);
   font-family: var(--fuente-secundaria);
 }
 
@@ -112,10 +113,12 @@ h2, h3, h4, h5 {
 }
 
 .number-date {
+  color: var(--color-primario);
   font-size: clamp(2.5rem, 7vw, 4.5rem);
 }
 
 .text-date {
+  color: var(--color-primario);
   font-size: clamp(1.2rem, 3vw, 1.8rem);
 }
 

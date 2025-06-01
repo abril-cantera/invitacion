@@ -51,7 +51,7 @@ export default function Countdown({ timezone = -3, onFinish = () => {} }) {
 
   return (
     <div className="container-one-date">
-      <h2 className="title-date">NOS VEMOS EN:</h2>
+      <h2 className="title-date">FALTAN:</h2>
       <div className="container-two-date">
         {Object.entries(labels).map(([unit, label]) => (
           <div key={unit} className="container-number-date">

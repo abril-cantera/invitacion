@@ -1,6 +1,7 @@
 :root {
   --color-primario: #80968b;
   --color-secundario: #ffffff;
+  --color-terciario: rgb(47, 80, 38);
   --fuente-principal: "Kaisei Opti", serif;
   --fuente-secundaria: 'Times New Roman', Times, serif;
   --fuente-terciaria: 'Dosis', sans-serif;

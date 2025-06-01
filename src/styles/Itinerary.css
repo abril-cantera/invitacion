@@ -12,41 +12,30 @@
 }
 
 .title-primary-itinerary {
-  color: black;
-  font-size: 2.6rem;
+  color: var(--color-primario);
+  font-size: var(--title-primary);
   padding-bottom: 2rem;
 }
 
 .itinerary-list {
-  width: 50%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   gap: 3rem;
-  /* Espacio más amplio entre los eventos */
   margin-top: 2rem;
 }
 
 .itinerary-item {
   border-left: 3px solid  var(--color-primario);
-  /* Línea más gruesa para más visibilidad */
   padding-left: 2rem;
   position: relative;
 }
 
-.itinerary-item::before {
-  content: "";
-  position: absolute;
-  left: -10px;
-  top: 0;
-  width: 15px;
-  /* Círculo más grande */
-  height: 15px;
-  background-color:  var(--color-primario);
-  border-radius: 50%;
+.container-item{
+  height: 70px;
 }
 
 .time {
-  font-size: 2rem;
+  font-size: var(--title-primary);
   /* Aumento de tamaño */
   letter-spacing: 2px;
   color:  var(--color-primario);
@@ -55,10 +44,10 @@
 }
 
 .title {
-  font-size: 2.3rem;
+  font-size: var(--subtitle);
   /* Aumento de tamaño */
   margin: 1rem 0;
-  color: rgb(47, 80, 38);
+  color: var(--color-terciario);
   font-weight: 500;
   /* Hacemos el título más visible */
 }

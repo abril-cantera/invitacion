@@ -1,9 +1,6 @@
 import React from "react";
-import florLinea1 from "../assets/img/flor-linea-1.png";
-import florLinea2 from "../assets/img/flor-linea-2.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import "../styles/Places.css";
-import Curve from "../components/Curve";
 import DateContainer from "../components/DateContainer";
 import aw from "../assets/img/aw.png";
 import flor from "../assets/img/flor3.png";

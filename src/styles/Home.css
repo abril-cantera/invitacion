@@ -58,8 +58,8 @@
   position: absolute;
   top: -1%;
   left: -6%;
-  transform: rotate(198deg) scale(-0.8);
-  opacity: 0.1;
+  transform: translate(-10%, -10%) rotate(198deg) scale(-0.8);
+  opacity: 0;
   transition: transform 2s ease, opacity 2.5s ease;
 }
 
@@ -73,13 +73,12 @@
   filter: brightness(0) invert(1);
 }
 
-
 .flor-down {
   position: absolute;
-  bottom: 4%;
-  right: -9%;
-  transform: rotate(205deg) scale(0.8);
-  opacity: 0.1;
+  bottom: 2%;
+  right: -10%;
+  transform: translate(10%, 10%) rotate(205deg) scale(0.8);
+  opacity: 0;
   transition: transform 2s ease, opacity 2.5s ease;
 }
 

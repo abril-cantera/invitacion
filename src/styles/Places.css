@@ -20,8 +20,8 @@
   overflow: hidden;
   /* previene scroll no deseado si se sobrepone */
   color: var(--color-secundario);
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .aw-wrapper {

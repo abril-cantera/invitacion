@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/Home.css";
 // import flor from "../assets/img/flor2.png";
 // import flor from "../assets/img/flor.png";
-// import flor from "../assets/img/flor3.png";
+import linea from "../assets/img/linea-sub.png";
 import flor from "../assets/img/flor-1.png";
 import Curve from "../components/Curve";
 
@@ -21,7 +21,7 @@ export default function Home() {
       <div className="container-two">
         <h2 className="title-primary">Nos casamos</h2>
         <h1 className="title-secondary">Abril & Willy</h1>
-        <h2 className="title-primary">28 · 08 · 2027</h2>
+        <img className="linea" src={linea} alt="linea" />
       </div>
       <div className={`flor-down ${animarFlor ? "flor-down-activa" : ""}`}>
         <img src={flor} alt="flor" />

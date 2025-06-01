@@ -11,7 +11,7 @@ import flor from "../assets/img/flor3.png";
 export default function Places() {
   return (
     <div>
-      {/* <DateContainer /> */}
+      <DateContainer />
       <div className="conatiner-primary-places">
         <div className="container-decorartion-places">
           {/* <Curve curve={1} /> */}

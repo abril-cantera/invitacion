@@ -9,7 +9,7 @@
 .container-decorartion-places {
   background-color: var(--color-primario);
   width: 85%;
-  height: 60rem;
+  height: 55rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  padding-right: 20%;
+  /* padding-right: 20%; */
 }
 
 /* .flor {
@@ -86,8 +86,8 @@
 .subcontainer-places {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 5%;
+  justify-content: center;
+  padding-top: 15%;
 }
 
 .subcontainer-places h4 {
@@ -117,7 +117,7 @@
   font-size: 2.5rem;
 }
 
-.btn-a:hover {
+/* .btn-a:hover {
   background-color: #c1dbba;
   transform: scale(1.05);
-}
+} */

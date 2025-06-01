@@ -33,7 +33,7 @@ export default function Places() {
           </div>
           <div className="subcontainer-places">
             <div>
-              <h4>Salon de Eventos Hualilan</h4>
+              <h4>Salon de Eventos</h4>
               <h4>22:00 hs</h4>
               <div className="link-place">
                 <FaMapMarkerAlt className="icon-map" />

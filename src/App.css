@@ -5,3 +5,32 @@ body {
 #root {
   font-family: 'Bitter', serif;
 }
+
+/* Mostrar contenido principal por defecto */
+.container-principal {
+  display: block;
+}
+
+/* Ocultar el mensaje de advertencia por defecto */
+.desktop-warning {
+  display: none;
+}
+
+/* Cuando la pantalla es grande (>=1024px) */
+@media screen and (min-width: 1024px) {
+  .container-principal {
+    display: none !important;
+  }
+
+  .desktop-warning {
+    display: flex !important;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8d7da;
+    color: #721c24;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+}

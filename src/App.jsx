@@ -6,9 +6,11 @@ import Itinerary from "./containers/Itinerary";
 import ImportantInformation from "./containers/ImportantInformation";
 
 function App() {
-  
   return (
     <>
+      <div className="desktop-warning">
+        <h2>⚠️ Por favor, mirá esta página desde un teléfono</h2>
+      </div>
       <div className="container-principal">
         <div className="container-primary">
           <div>

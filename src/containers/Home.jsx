@@ -19,9 +19,15 @@ export default function Home() {
         <img src={flor} alt="flor" />
       </div>
       <div className="container-two">
-        <h2 className="title-primary">Nos casamos</h2>
-        <h1 className="title-secondary">Abril & Willy</h1>
-        <img className="linea" src={linea} alt="linea" />
+        <h2 className={`title-primary ${animarFlor ? "animar-texto" : ""}`}>
+          Nos casamos
+        </h2>
+        <h1 className={`title-secondary ${animarFlor ? "animar-texto" : ""}`}>
+          Abril & Willy
+        </h1>
+        {/* <div className={`linea ${animarFlor ? "animar-linea" : ""}`}>
+          <img src={linea} alt="linea" />
+        </div> */}
       </div>
       <div className={`flor-down ${animarFlor ? "flor-down-activa" : ""}`}>
         <img src={flor} alt="flor" />

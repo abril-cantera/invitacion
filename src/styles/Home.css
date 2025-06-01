@@ -97,6 +97,30 @@
 .linea {
   position: absolute;
   bottom: 30%;
+  transform: translateX(-50%);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.linea img {
   width: 205px;
   filter: brightness(0) invert(1);
+}
+
+.title-primary,
+.title-secondary,
+.linea {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+/* Cuando se activa la animación */
+.animar-texto {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animar-linea {
+  opacity: 1;
+  transform: translateY(0);
 }

@@ -8,7 +8,7 @@
 
 .container-decorartion-places {
   background-color: var(--color-primario);
-  width: 80%;
+  width: 85%;
   height: 60rem;
   display: flex;
   justify-content: center;
@@ -20,8 +20,9 @@
   overflow: hidden;
   /* previene scroll no deseado si se sobrepone */
   color: var(--color-secundario);
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-radius: 60px;
+  /* border-bottom-left-radius: 50px; */
+  /* border-bottom-right-radius: 50px; */
 }
 
 .aw-wrapper {
@@ -40,7 +41,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  padding-right: 31%;
+  padding-right: 20%;
 }
 
 /* .flor {

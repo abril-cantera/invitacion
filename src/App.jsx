@@ -26,9 +26,9 @@ function App() {
               <div>
                 <Itinerary />
               </div>
-            <div>
+            {/* <div>
               <ImportantInformation />
-            </div>
+            </div> */}
             </div>
           </div>
           {/* <div className="container-secondary">

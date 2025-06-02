@@ -4,7 +4,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  /* margin-bottom: 20px; */
+  margin-bottom: 10rem;
 }
 
 .container-decorartion-places {
@@ -42,41 +42,19 @@
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  /* padding-right: 20%; */
 }
-
-/* .flor {
-  width: 146px;
-  position: absolute;
-  top: 40%;
-  left: -9%;
-  transform: rotate(86deg) scaleX(-1);
-  filter: brightness(0) invert(1);
-
-} */
 
 .flor {
   position: absolute;
   width: 146px;
-  /* ajusta según necesidad */
   filter: brightness(0) invert(1);
 }
 
 .flor-top {
   top: 50%;
   left: -16%;
-  /* ajusta según posición del "|" */
   transform: rotate(86deg) scaleX(-1);
 }
-
-/* .down-flor {
-  width: 146px;
-  position: absolute;
-  top: 21%;
-  left: 20%;
-  transform: rotate(270deg) scaleX(-1);
-  filter: brightness(0) invert(1);
-} */
 
 .flor-bottom {
   bottom: 55%;
@@ -117,8 +95,3 @@
   margin-right: 5px;
   font-size: 2.5rem;
 }
-
-/* .btn-a:hover {
-  background-color: #c1dbba;
-  transform: scale(1.05);
-} */

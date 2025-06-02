@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Itinerary.css";
+import flor from "../assets/img/flor-4.png";
 
 export default function Itinerary() {
   const eventsLeft = [
@@ -23,6 +24,9 @@ export default function Itinerary() {
 
   return (
     <div className="itinerary-container">
+      <div className="flor-itinerary flor-itinerary-top">
+        <img src={flor} alt="flor" />
+      </div>
       <h2 className="title-primary-itinerary">Itinerario</h2>
       <div className="itinerary-list">
         <div>
@@ -42,6 +46,9 @@ export default function Itinerary() {
             </div>
           ))}
         </div>
+      </div>
+      <div className="flor-itinerary flor-itinerary-down">
+        <img src={flor} alt="flor" />
       </div>
     </div>
   );

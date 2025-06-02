@@ -11,8 +11,6 @@ export default function Places() {
       <DateContainer />
       <div className="conatiner-primary-places">
         <div className="container-decorartion-places">
-          {/* <Curve curve={1} /> */}
-          {/* <Curve curve={1} curvex2={1} /> */}
           <div className="subcontainer-decoration">
             <div className="aw-wrapper">
               <img
@@ -44,7 +42,6 @@ export default function Places() {
             </div>
           </div>
         </div>
-        {/* <Curve curve={0} /> */}
       </div>
     </div>
   );

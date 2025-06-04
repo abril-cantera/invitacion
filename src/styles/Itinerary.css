@@ -2,7 +2,7 @@
 
 .itinerary-container {
   background-color: var(--color-primario);
-  padding: 5rem 2rem;
+  padding: 8rem 2rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -29,12 +29,17 @@
 
 .itinerary-item {
   border-left: 3px solid var(--color-secundario);
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   position: relative;
+  width: 2%;
+}
+
+.subcontainer-item{
+  width: 49%;
 }
 
 .container-item {
-  height: 70px;
+  height: 100px;
 }
 
 .time {
@@ -57,7 +62,7 @@
 }
 
 .flor-itinerary img{
-  width: 150px;
+  width: 170px;
 }
 
 .flor-itinerary-top {
@@ -70,4 +75,12 @@
   bottom: -2%;
   right: 1%;
   transform: rotate(95deg) scaleX(-1);
+}
+
+.flor-item-itinerary {
+  filter: brightness(0) invert(1);
+}
+
+.flor-item-itinerary img{
+  width: 70px;
 }

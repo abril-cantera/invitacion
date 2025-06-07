@@ -6,6 +6,10 @@
   color: var(--color-primario);
 }
 
+.dresscode-subinfo h2{
+  color: var(--color-primario);
+}
+
 .dresscode-text {
   font-size: 2rem;
   max-width: 850px;
@@ -21,4 +25,8 @@
 .dresscode-img-info {
   display: flex;
   align-items: center;
+}
+
+.dresscode-subinfo-info p{
+ font-family: var(--fuente-secundaria);
 }

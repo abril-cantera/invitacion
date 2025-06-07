@@ -30,3 +30,11 @@
 .dresscode-subinfo-info p{
  font-family: var(--fuente-secundaria);
 }
+
+.traje{
+  width: 100px;
+}
+
+.vestido{
+  width: 70px;
+}

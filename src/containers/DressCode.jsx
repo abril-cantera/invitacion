@@ -17,13 +17,13 @@ export default function DressCode() {
                 <p>Zapatos formal/semi formal</p>
                 <p>NO SPORT</p>
               </div>
-              <img fill="#ffffff" className="container-img" src={traje} alt="" />
+              <img className="container-img traje" src={traje} alt="" />
             </div>
           </div>
           <div className="dresscode-subinfo">
             <h2>Mujeres</h2>
             <div className="dresscode-img-info">
-              <img className="container-img" src={vestido} alt="" />
+              <img className="container-img vestido" src={vestido} alt="" />
               <div className="dresscode-subinfo-info">
                 <p>Vestido/Mono Largo</p>
                 <p>Traje/Blazer Largo</p>

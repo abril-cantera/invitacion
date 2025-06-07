@@ -1,8 +1,9 @@
 .dresscode-title {
-  font-size: 3rem;
-  margin-bottom: 2rem;
+  font-size: var(--title-primary);
+  padding: 2rem 0;
   font-weight: 400;
   letter-spacing: 2px;
+  color: var(--color-primario);
 }
 
 .dresscode-text {
@@ -10,4 +11,14 @@
   max-width: 850px;
   margin: 0 auto;
   line-height: 1.7;
+}
+
+.dresscode-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dresscode-img-info {
+  display: flex;
+  align-items: center;
 }

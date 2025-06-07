@@ -1,8 +1,9 @@
+@import url('./variables.css');
+
 .information-container {
-  background-color: rgb(47, 80, 38);
+  background-color: var(--color-secundario);
   /* fondo verde oscuro */
-  color: white;
-  padding: 15rem 8rem;
+  padding: 5rem 1rem;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   position: relative;
@@ -12,13 +13,15 @@
 
 .information-subcontainer-title {
   padding: 0 2rem 2rem 2rem;
+  font-size: var(--title-primary);
+  color: var(--color-primario);
 }
 
 .information-subcontainer-title h2 {
   padding-bottom: 1rem;
 }
 
-.dresscode-info {
+/* .dresscode-info {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -31,9 +34,9 @@
 
 .dresscode-subinfo  h2{
   padding: 1rem;
-}
+} */
 
-.dresscode-img-info {
+/* .dresscode-img-info {
   display: flex;
   justify-content: space-evenly;
 }
@@ -43,3 +46,18 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+.flor-information {
+  position: absolute;
+  filter: brightness(0) invert(1);
+}
+
+.flor-information img{
+  width: 170px;
+}
+
+.flor-information-down {
+  bottom: -2%;
+  right: 1%;
+  transform: rotate(95deg) scaleX(-1);
+} */

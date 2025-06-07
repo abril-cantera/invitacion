@@ -17,7 +17,7 @@ export default function DressCode() {
                 <p>Zapatos formal/semi formal</p>
                 <p>NO SPORT</p>
               </div>
-              <img className="container-img" src={traje} alt="" />
+              <img fill="#ffffff" className="container-img" src={traje} alt="" />
             </div>
           </div>
           <div className="dresscode-subinfo">

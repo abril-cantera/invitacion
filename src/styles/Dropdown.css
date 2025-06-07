@@ -1,8 +1,10 @@
+@import url('./variables.css');
+
 .custom-dropdown {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--color-primario);
   padding: 0.5rem 0;
-  font-family: 'Bitter', serif;
-  color: #f9f9f9;
+  font-family: var(--fuente-terciaria);
+  color: var(--color-terciario);
 }
 
 .dropdown-header {
@@ -13,10 +15,9 @@
   border: none;
   width: 100%;
   text-align: left;
-  font-size: 1.6rem;
-  font-family: "Times New Roman", Times, serif;
-  /* font-style: italic; */
-  color: #fff;
+  font-size: var(--subtitle);
+  font-family: var(--fuente-secundaria);
+  color: var(--color-primario);
   cursor: pointer;
   padding: 0.25rem 0;
   transition: color 0.3s ease;

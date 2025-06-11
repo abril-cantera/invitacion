@@ -26,7 +26,7 @@
 
 .dresscode-img-info {
   display: flex;
-  filter: brightness(0) invert(1);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(100deg) brightness(100%) contrast(100%);
   align-items: center;
 }
 

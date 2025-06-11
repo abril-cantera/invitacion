@@ -1,15 +1,9 @@
-import Dropdown from "../components/Dropdown";
 import DressCode from "./DressCode";
 import "../styles/ImportantInformation.css";
-import Curve from "../components/Curve";
-// import flor from "../assets/img/flor-4.png";
 
 export default function ImportantInformation() {
   return (
     <div className="information-container">
-      {/* <div className="flor-information flor-information-down">
-        <img src={flor} alt="flor" />
-      </div> */}
       <div>
         <DressCode />
       </div>

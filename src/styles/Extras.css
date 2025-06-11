@@ -1,0 +1,76 @@
+@import url('./variables.css');
+
+.extras-container {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extras-subcontainer {
+  margin: 2rem 0;
+  padding: 6rem 1rem;
+  border-radius: 60px;
+  color: var(--color-secundario);
+  width: 85%;
+  background-color: var(--color-primario);
+}
+
+.extras-subcontainer h2 {
+  font-size: 2.5rem;
+}
+
+.extras-subcontainer p {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.link-music {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: var(--color-secundario);
+  font-size: var(--subtitle);
+  color: var(--color-terciario);
+  padding: 0.5rem 2rem;
+  border-radius: 0.75rem;
+  border: none;
+}
+
+.icon-music img {
+  margin: 5px;
+  filter: brightness(0) invert(1);
+  width: 90px;
+}
+
+.container-form {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.3s ease;
+}
+
+.container-form.visible {
+  max-height: 300px;
+  opacity: 1;
+  padding: 20px 0;
+}
+
+.sing-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color-secundario);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}

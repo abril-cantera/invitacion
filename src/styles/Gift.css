@@ -1,0 +1,16 @@
+@import url('./variables.css');
+
+.gift-container h2{
+font-size: 2.5rem;
+}
+
+.icon-gift img {
+  margin: 5px;
+  filter: brightness(0) invert(1);
+  width: 150px;
+}
+
+.gift-container p {
+  font-size: 1.5rem;
+  padding: 1rem;
+}

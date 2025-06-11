@@ -15,25 +15,32 @@ export default function DressCode() {
         <h2 className="dresscode-title">CODIGO DE VESTIMENTA</h2>
         <div className="dresscode-info">
           <div className="dresscode-subinfo">
-            {/* <h2>Mujeres</h2> */}
             <div className="dresscode-img-info">
               <img className="container-img" src={vestido} alt="" />
-              {/* <div className="dresscode-subinfo-info">
-                <p>Vestido/Mono Largo</p>
-                <p>Traje/Blazer Largo</p>
-                <p>NO SPORT</p>
-              </div> */}
             </div>
           </div>
           <div className="dresscode-subinfo">
-            {/* <h2>Hombres</h2> */}
             <div className="dresscode-img-info">
-              {/* <div className="dresscode-subinfo-info">
-                <p>Traje/Blazer</p>
-                <p>Zapatos formal/semi formal</p>
-                <p>NO SPORT</p>
-              </div> */}
               <img className="container-img" src={traje} alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 className="dresscode-text">Formal</h2>
+          <div className="dresscode-subinfo-text">
+            <h3>MUJERES</h3>
+            <div className="dresscode-subinfo-info">
+              <p>Vestido/Mono/Traje largo</p>
+              <p>Evitar vestir de blanco o colores muy similares (como marfil, crema, champán, beige muy claro o tonos muy pálidos que puedan confundirse con blanco)</p>
+              <p>NO SPORT</p>
+            </div>
+
+            <h3>HOMBRES</h3>
+            <div className="dresscode-subinfo-info">
+              <p>Blazer/Saco - Pantalón de vestir o chino</p>
+              <p>Evitar vestir de Verde o colores muy similares</p>
+              <p>No pantalones rotos o deportivos</p>
+              {/* <p>NO SPORT</p> */}
             </div>
           </div>
         </div>

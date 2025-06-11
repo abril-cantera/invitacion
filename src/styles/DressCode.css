@@ -1,27 +1,31 @@
 .dresscode-title {
-  font-size: var(--title-primary);
-  padding: 2rem 0;
+  font-size: 2.3rem;
+  padding: 2rem 1rem;
   font-weight: 400;
   letter-spacing: 2px;
   color: var(--color-secundario);
-  width: 50%;
+  width: 60%;
   text-align: start;
 }
 
-.dresscode-subinfo h2 {
-  color: var(--color-primario);
-}
-
 .dresscode-text {
-  font-size: 2rem;
+  font-size: var(--title-secondary);
   max-width: 850px;
   margin: 0 auto;
+  color: var(--color-secundario);
+  font-family: var(--fuente-decorativa);
   line-height: 1.7;
 }
 
 .dresscode-info {
   display: flex;
   justify-content: space-evenly;
+}
+
+.dresscode-subinfo-text h3{
+  font-size: var(--subtitle);
+  color: var(--color-secundario);
+  padding: 7px;
 }
 
 .dresscode-img-info {
@@ -31,6 +35,9 @@
 }
 
 .dresscode-subinfo-info p {
+  padding: 5px;
+  color: var(--color-secundario);
+  font-size: 1.5rem;
   font-family: var(--fuente-secundaria);
 }
 

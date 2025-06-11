@@ -66,8 +66,8 @@
 }
 
 .flor-itinerary-top {
-  top: -1%;
-  left: 32%;
+  top: 0%;
+  right: 0%;
   transform: rotate(365deg) scaleX(-1);
 }
 

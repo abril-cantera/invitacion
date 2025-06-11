@@ -1,9 +1,9 @@
 @import url('./variables.css');
 
 .information-container {
-  background-color: var(--color-primario);
+  /* background-color: var(--color-primario); */
   /* fondo verde oscuro */
-  padding: 7rem 1rem;
+  /* padding: 7rem 1rem; */
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   position: relative;
@@ -11,16 +11,21 @@
   overflow: hidden;
 }
 
-/* .information-subcontainer-title {
-  padding: 0 2rem 2rem 2rem;
+.information-subcontainer-title {
+  padding: 7rem 1rem;
   font-size: var(--title-primary);
-  color: var(--color-secundario);
-} */
+  color: var(--color-primario);
+}
 
-/* .information-subcontainer-title h2 {
+.information-subcontainer-title h2 {
+  padding-bottom: 2rem;
+  font-size: var(--title-primary);
+}
+
+/* .information-subcontainer-title h3 {
   padding-bottom: 1rem;
+  font-size: var(--subtitle);
 } */
-
 /* .dresscode-info {
   display: flex;
   justify-content: center;

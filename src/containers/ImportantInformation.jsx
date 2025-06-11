@@ -10,20 +10,19 @@ export default function ImportantInformation() {
       {/* <div className="flor-information flor-information-down">
         <img src={flor} alt="flor" />
       </div> */}
-      {/* <div className="information-subcontainer-title">
-        <h2>DUDAS?</h2>
-        <h4>Te contamos todos los detalles</h4>
-      </div> */}
-      {/* <Dropdown title="CODIGO DE VESTIMENTA"> */}
+      <div>
         <DressCode />
-      {/* </Dropdown> */}
+      </div>
 
-      {/* <Dropdown title="NIÑOS">
+      <div className="information-subcontainer-title">
+        <h2>INFORMACION IMPORTANTE</h2>
         <p>
-          Si decidís traer niños, por favor avisanos con anticipación. No habrá
-          entretenimiento ni zonas adaptadas.
+          "La celebración está pensada para adultos. Solo estarán presentes
+          nuestros hermanos menores y sobrinos cercanos. Gracias por su
+          comprensión y por acompañarnos en un momento tan importante para
+          nosotros."
         </p>
-      </Dropdown> */}
+      </div>
 
       {/* <Curve curve={0} /> */}
     </div>

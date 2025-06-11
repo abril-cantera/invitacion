@@ -32,7 +32,7 @@ export default function DressCode() {
             <div className="dresscode-subinfo-info">
               <p>Vestido/Mono/Traje largo</p>
               <p>Evitar vestir de blanco o colores muy similares (como marfil, crema, champán, beige muy claro o tonos muy pálidos que puedan confundirse con blanco)</p>
-              <p>NO SPORT</p>
+              <p>NO SPORT - NO ESTAMPADOS</p>
             </div>
 
             <h3>HOMBRES</h3>
@@ -40,7 +40,7 @@ export default function DressCode() {
               <p>Blazer/Saco - Pantalón de vestir o chino</p>
               <p>Evitar vestir de Verde o colores muy similares</p>
               <p>No pantalones rotos o deportivos</p>
-              {/* <p>NO SPORT</p> */}
+              <p>NO SPORT - NO ESTAMPADOS</p>
             </div>
           </div>
         </div>

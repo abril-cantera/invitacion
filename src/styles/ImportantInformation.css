@@ -1,7 +1,7 @@
 @import url('./variables.css');
 
 .information-container {
-  background-color: var(--color-secundario);
+  background-color: var(--color-primario);
   /* fondo verde oscuro */
   padding: 5rem 1rem;
   text-align: center;
@@ -11,15 +11,15 @@
   overflow: hidden;
 }
 
-.information-subcontainer-title {
+/* .information-subcontainer-title {
   padding: 0 2rem 2rem 2rem;
   font-size: var(--title-primary);
-  color: var(--color-primario);
-}
+  color: var(--color-secundario);
+} */
 
-.information-subcontainer-title h2 {
+/* .information-subcontainer-title h2 {
   padding-bottom: 1rem;
-}
+} */
 
 /* .dresscode-info {
   display: flex;

@@ -2,7 +2,7 @@
 
 .itinerary-container {
   background-color: var(--color-primario);
-  padding: 8rem 2rem;
+  padding: 6rem 2rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -62,19 +62,19 @@
 }
 
 .flor-itinerary img{
-  width: 170px;
+  width: 220px;
 }
 
 .flor-itinerary-top {
-  top: -2%;
-  left: 1%;
-  transform: rotate(268deg) scaleX(-1);
+  top: -1%;
+  left: 32%;
+  transform: rotate(365deg) scaleX(-1);
 }
 
 .flor-itinerary-down {
-  bottom: -2%;
-  right: 1%;
-  transform: rotate(95deg) scaleX(-1);
+  bottom: 0%;
+  right: 34%;
+  transform: rotate(184deg) scaleX(-1);
 }
 
 .flor-item-itinerary {

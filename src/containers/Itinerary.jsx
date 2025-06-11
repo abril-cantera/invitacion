@@ -11,6 +11,7 @@ import ceremonia from "../assets/img/ceremonia.png";
 import novios from "../assets/img/novios.png";
 import pastel from "../assets/img/pastel.png";
 import recepcion from "../assets/img/recepcion.png";
+import coche from "../assets/img/coche.png";
 
 export default function Itinerary() {
   const eventsLeft = [
@@ -34,6 +35,8 @@ export default function Itinerary() {
     { time: "22:15 hs", title: "Cena", img: cena },
     { time: "", title: "", img: "" },
     { time: "23:40 hs", title: "Corte del pastel", img: pastel },
+    { time: "", title: "", img: "" },
+    { time: "5:00 hs", title: "Final de la fiesta", img: coche },
   ];
 
   return (

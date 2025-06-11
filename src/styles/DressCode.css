@@ -3,10 +3,12 @@
   padding: 2rem 0;
   font-weight: 400;
   letter-spacing: 2px;
-  color: var(--color-primario);
+  color: var(--color-secundario);
+  width: 50%;
+  text-align: start;
 }
 
-.dresscode-subinfo h2{
+.dresscode-subinfo h2 {
   color: var(--color-primario);
 }
 
@@ -27,14 +29,21 @@
   align-items: center;
 }
 
-.dresscode-subinfo-info p{
- font-family: var(--fuente-secundaria);
+.dresscode-subinfo-info p {
+  font-family: var(--fuente-secundaria);
 }
 
-.traje{
-  width: 100px;
+.flor-dresscode {
+  position: absolute;
+  filter: brightness(0) invert(1);
 }
 
-.vestido{
-  width: 70px;
+.flor-dresscode img {
+  width: 220px;
+}
+
+.flor-dresscode-top {
+  top: 0%;
+  left: 32%;
+  transform: rotate(365deg) scaleX(-1);
 }

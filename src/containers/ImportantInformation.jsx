@@ -10,23 +10,22 @@ export default function ImportantInformation() {
       {/* <div className="flor-information flor-information-down">
         <img src={flor} alt="flor" />
       </div> */}
-      <div className="information-subcontainer-title">
+      {/* <div className="information-subcontainer-title">
         <h2>DUDAS?</h2>
         <h4>Te contamos todos los detalles</h4>
-      </div>
-      <Dropdown title="DRESS CODE">
+      </div> */}
+      {/* <Dropdown title="CODIGO DE VESTIMENTA"> */}
         <DressCode />
-      </Dropdown>
+      {/* </Dropdown> */}
 
-      <Dropdown title="NIÑOS">
+      {/* <Dropdown title="NIÑOS">
         <p>
           Si decidís traer niños, por favor avisanos con anticipación. No habrá
           entretenimiento ni zonas adaptadas.
         </p>
-      </Dropdown>
+      </Dropdown> */}
 
-      <Dropdown title="Alojamiento">{/* <Alojamiento /> */}</Dropdown>
-      <Curve curve={0} />
+      {/* <Curve curve={0} /> */}
     </div>
   );
 }
